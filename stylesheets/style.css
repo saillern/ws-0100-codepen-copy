@@ -312,6 +312,10 @@ a :hover {
   color: #aaaebc;
 }
 
+.footer-copyright-text {
+  color: #aaaebc;
+}
+
 .hero-body {
   display: flex;
   flex-wrap: wrap;
