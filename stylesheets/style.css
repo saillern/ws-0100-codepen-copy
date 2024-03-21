@@ -75,6 +75,7 @@ a :hover {
   border-radius: 4px;
   padding: 2px 4px;
   font-weight: bold;
+  margin-left: 2px;
 }
 
 .button {
@@ -100,12 +101,12 @@ a :hover {
 .button-primary {
   color: black;
   background: #47cf73;
-  border: solid 1px #47cf37;
+  border: 0px;
 }
 
 .button-secondary {
   background: #444857;
-  border: solid 1px #444857;
+  border: 0px;
 }
 
 .button-border {
@@ -275,11 +276,11 @@ a :hover {
   bottom: 20px;
 }
 
-.code-text {
+.code-card-text {
   font-size: 13px;
   padding-left: 8px;
 }
-.code-text p {
+.code-card-text p {
   margin: 0;
 }
 
@@ -424,7 +425,7 @@ a :hover {
 }
 
 .text-primary {
-  color: #6ae5b6;
+  color: #47cf73;
 }
 
 .text-secondary {
