@@ -1,29 +1,59 @@
 @use '../variable.sass' as v
+@use '../mixin.sass' as m
 
 .code-card-header
     justify-content: space-between
-
-.code-card-title
     padding: 4px 8px
+    .fa:before
+        color:#b7bbc8
+
 
 .code-card-title-text
-    font-weight: 700
     margin: 0
-    padding-left: 10px
+    padding-left: 8px
 
-.chevron-down-position
-    text-align: right
 
+.code-cards
+    width: 50%
+    @include m.sm-max
+        width: 100%
+
+
+.code-card-large-square
+    margin: 16px auto
+    background: linear-gradient(120deg , #4c4f5a , #202125)
+    border: solid 1px v.$light-Gray
+    border-radius: 6px
+    width: 495px
+    height: 410px
+    @include m.sm-max
+        width: 100%
+
+.code-card-square
+    background: #1d1e22
+    border-radius: 6px
+    width: 300px
+    height: 140px
+    margin-bottom: 8px
+    font-size:13px
+
+.code-card-html
+    position: relative
+    left:160px
+    bottom:20px
+
+.code-card-css
+    position: relative
+    left:220px
+    bottom:20px
+
+.code-card-js
+    position: relative
+    left:160px
+    bottom:20px
 
 .code-text
     font-size:13px
-    padding-left: 10px
+    padding-left: 8px
     p
         margin: 0
-
-.indent-2rem
-    margin-left:2rem !important
-
-.indent-4rem
-    margin-left:4rem !important
-

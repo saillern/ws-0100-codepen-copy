@@ -1,58 +1,42 @@
 @use '../variable.sass' as v
 @use '../mixin.sass' as m
 
-.yellow-text
-    color: yellow
 
-.light-green-text
+.text-important
+    font-weight: bold
+
+.text-hilight
+    font-weight: 900
+
+.text-primary
     color:  #6ae5b6
 
-.blue-text
+.text-secondary
     color:  v.$light-Blue
 
-.gray-text
-    color: #b7bbc8
-
-.bold-text
-    font-weight: 900
-
-.light-bold-text
-    font-weight: 700
-
-.light-orange-text
-    color:#a88038
-
-.light-yellow-text
-    color:#e1ca72
-
-.text-green
-    color:#74b087
-
-.light-purpule-text
-    color:#9f8198
-
-.light-blue-text
+.text-light-secondary
     color:#7a99ad
 
-.title
-    width: 50%
-    padding:32px
-    @include m.sm-max
-        width: 100%
-    .button
-        margin-left: 8px
-        min-width:100px
-        padding:10px
+.text-info
+    color: #b7bbc8
 
-.subtitle-text
-    font-size: 1.1rem
 
-.title-text
-    font-size: 3rem
-    font-weight: 900
-    margin: 0
+.text-warning
+    color: v.$color-warning
 
-.blink-text
+.text-light-warning
+    color:#e1ca72
+
+.text-number
+    color:#a88038
+
+.text-variable-name
+    color:#74b087
+
+.text-property
+    color:#9f8198
+
+.text-blink
     animation: blink 1s infinite
 @keyframes blink
     0%
@@ -63,3 +47,17 @@
         opacity:  1
     100%
          opacity: 1
+
+.chevron-down-position
+    text-align: right
+
+.get-start-text
+    margin:0.2rem
+    font-size: 0.8rem
+    text-align: center
+    color: #b7bbc8
+
+.sidebar-intro-text
+    background: black
+    padding: 8px
+    width:100%

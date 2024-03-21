@@ -1,16 +1,18 @@
 @use '../variable.sass' as v
-.card-icon
+
+.card-icon-square
     position: relative
     left: 16px
     top: 32px
-
-.card-icon-square
     width: 64px
     height: 64px
     background: black
     border-radius: 6px
-    font-size: 3rem
     text-align: center
+    .fa
+        font-size:48px
+        position: relative
+        top: 8px
 
 .card-square
     width: 360px
@@ -25,14 +27,3 @@
 
 .card-text
     color: #b7bbc8
-
-.card-text-blue
-    color: v.$light-Blue
-
-.card-button
-    min-width: 100px
-    padding:10px 10px
-    background: #444857
-    border: solid 1px #444857
-    border-radius: 3px
-    text-align: center
