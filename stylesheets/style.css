@@ -287,6 +287,18 @@ a :hover {
   margin: 0;
 }
 
+.code-card-text-number {
+  color: #a88038;
+}
+
+.code-card-text-variable-name {
+  color: #74b087;
+}
+
+.code-card-text-property {
+  color: #9f8198;
+}
+
 .code-card-text-blink {
   animation: blink 1s infinite;
 }
@@ -480,18 +492,6 @@ a :hover {
 
 .text-light-warning {
   color: #e1ca72;
-}
-
-.text-number {
-  color: #a88038;
-}
-
-.text-variable-name {
-  color: #74b087;
-}
-
-.text-property {
-  color: #9f8198;
 }
 
 /*# sourceMappingURL=style.css.map */
